@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block header %}
+<h1 class="text-left" style="margin-top: 100px">{{ heading }}</h1>
+<p class="lead text-left"> {{ subheading }}</p>
+{% endblock header %}
+
+{% block app_css %}
+<link rel="stylesheet" href="{% static "blog/css/styles.css" %}">
+{% endblock app_css %}
+
+{% block content %}
+<div class="row" style="height: 800px">
+    <h1>Content blog</h1>
+</div>
+{% endblock content %}
