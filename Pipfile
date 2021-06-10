@@ -8,7 +8,7 @@ pylint = "*"
 autopep8 = "*"
 
 [packages]
-django = "==1.11.*"
+django = "==2.2.*"
 wheel = "*"
 mysqlclient = {path = "./mysqlclient-1.4.4-cp37-cp37m-win_amd64.whl"}
 
